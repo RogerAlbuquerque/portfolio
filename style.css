@@ -8,6 +8,9 @@
     list-style-type:none;
 }
 
+p{
+    font-size: 20px;
+}
 
 
 
@@ -19,6 +22,10 @@ body{
 
 h1{
     font-size: 64px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 header{
@@ -125,23 +132,85 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #about{
     background: radial-gradient(50% 50% at 50% 50%, #005555 0%, rgba(0, 85, 85, 0.49) 100%);
     padding: 1.5rem;
+    
 }
 
 #about span{
     font-size: 20px;
     color: #00F0FF;
+    
 }
 #about span:hover{
     color: #FF5C00;
     cursor: pointer;
 }
 
+.information p{
+    padding: .4rem 0rem;
+}
+
+#about div:first-child{
+    padding-bottom: 1rem;
+}
 
 
+#programador{
+   
+}
 
+#pessoa{
+    display: none;
+    
+}
+
+
+.skills{
+    padding-top: 4rem;
+}
+.allSkills div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 3px solid orange;
+   
+    width: 140px;
+    height: 140px;
+    /* padding: 1.2rem; */
+    margin: .8rem;
+    border-radius: 170px;
+
+    text-align: center;
+}
+
+.skills div figure{
+    text-align: center;
+}
+
+.allSkills{
+    display: flex;
+    justify-content: center;
+}
 
 
 
