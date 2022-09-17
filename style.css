@@ -161,7 +161,7 @@ width: 23vw;
     background: radial-gradient(50% 50% at 50% 50%, #005555 0%, rgba(0, 85, 85, 0.49) 100%);
     padding: 1.5rem;
 
-    height: 130vh;
+    height: 140vh;
     
 }
 
@@ -266,6 +266,7 @@ width: 23vw;
 
 #projects{
     padding: 1.5rem;
+    margin-top: 150px;
 }
 
 
