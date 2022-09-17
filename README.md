@@ -1,3 +1,5 @@
 # portfolio
 
-Projeto do meu portfolio pessoal
+Projeto do meu portfolio pessoal.
+
+********** AINDA NÃO FINALIZADO ***********
