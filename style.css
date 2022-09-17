@@ -50,7 +50,7 @@ header{
 
 header ul{
     display: flex;    
-    gap: 15rem;
+    gap: 2vw;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -204,13 +204,33 @@ width: 23vw;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .skills{
     padding-top: 6rem;
+    
+    
     
 }
 .allSkills{
     display: flex;
     margin-top: 1rem;
+    margin-left: -1.9rem;
     overflow-x: scroll;
     overflow-y: hidden;
     width: 95vw;
