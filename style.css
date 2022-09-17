@@ -12,6 +12,14 @@ p{
     font-size: 20px;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00F0FF;
+}
+
 
 
 
@@ -252,3 +260,21 @@ main{
 #projects{
     padding: 1.5rem;
 }
+
+
+
+footer ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
