@@ -53,7 +53,7 @@ header ul{
     gap: 2vw;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 header li:hover{
@@ -291,7 +291,10 @@ width: 23vw;
     margin-top: 50px;
 }
 
-
+#projects section img{
+    width: 200px;
+    height: 150px;
+}
 
 footer ul{
     display: flex;
