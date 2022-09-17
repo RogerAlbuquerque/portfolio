@@ -8,7 +8,34 @@
     <title>Roger Albuquerque</title>
     <link rel="stylesheet" href="style.css">
 
-    
+    <script>
+        function showProgramador(){
+            let programador = document.getElementById("programador")
+            let pessoa = document.getElementById("pessoa")
+            
+
+            programador.style.display = "block"
+            pessoa.style.display = "none"
+
+            document.getElementById("comoProgramador").style.color = "#FF5C00"
+            document.getElementById("comoPessoa").style.color = "#00F0FF"
+
+        }
+
+        function showPessoa(){
+            
+            let programador = document.getElementById("programador")
+            let pessoa = document.getElementById("pessoa")
+
+            programador.style.display = "none"
+            pessoa.style.display = "block"
+
+            document.getElementById("comoProgramador").style.color = "#00F0FF"
+            document.getElementById("comoPessoa").style.color = "#FF5C00"
+
+
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -90,10 +117,10 @@
        <article id="about">
            <div>
                <h1>Sobre mim</h1>
-               <span>Como programador</span> | <span>Como pessoa</span>
+               <span id="comoProgramador" onclick="showProgramador()">Como programador</span> | <span id="comoPessoa" onclick="showPessoa()">Como pessoa</span>
            </div>
 
-           <div id="programador">
+           <div id="programador" >
 
                 <section class="information">
                     <p>
@@ -176,7 +203,7 @@
 
 
 
-           <div id="pessoa">
+           <div id="pessoa" >
 
                <section class="information">
                     <p>
@@ -194,9 +221,45 @@
                 <div class="allSkills hobbies">
                     <div>
                         <p>Ouvir musica</p>
-                        <img src="img/hobbies/musica.png" alt="" style="padding-right: .6rem;">
-                        
+                        <img src="img/hobbies/musica.png" alt="" style="padding-right: .6rem;"/>                        
                     </div>
+
+
+                    <div>
+                        <p style="font-size: 10px;">Tocar guitarra/violão</p>
+                        <img src="img/hobbies/guitarra.png" alt="" />                        
+                    </div>
+
+                    <div>
+                        <p>Desenhar</p>
+                        <img src="img/hobbies/desenhar.png" alt=""/>                        
+                    </div>
+
+                    <div>
+                        <p>Programar</p>
+                        <img src="img/hobbies/programar.png" alt=""/>                        
+                    </div>
+
+                    <div>
+                        <p>Jogar</p>
+                        <img src="img/hobbies/jogar.png" alt=""/>                        
+                    </div>
+
+                    <div>
+                        <p>Estudar</p>
+                        <img src="img/hobbies/estudar.png" alt=""/>                        
+                    </div>
+
+                    <div>
+                        <p>Ler</p>
+                        <img src="img/hobbies/ler.png" alt=""/>                        
+                    </div>
+
+                    <div>
+                        <p>Trabalhar na Fazenda</p>
+                        <img src="img/hobbies/fazenda.png" alt=""/>                        
+                    </div>
+
                 </div>
                         
                </section>

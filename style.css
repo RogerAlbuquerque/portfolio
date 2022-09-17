@@ -162,10 +162,8 @@ main{
     color: #00F0FF;
     
 }
-#about span:hover{
-    color: #FF5C00;
-    cursor: pointer;
-}
+
+
 
 #about div:first-child{
     padding-bottom: 1rem;
@@ -197,6 +195,7 @@ main{
     display: flex;
     margin-top: 1rem;
     overflow-x: scroll;
+    overflow-y: hidden;
     width: 95vw;
     
    
@@ -226,6 +225,12 @@ main{
     font-weight: bold;
     text-align: center;
 }
+
+#isso{
+    width: 20px;
+}
+    
+
 
 
 
