@@ -168,7 +168,12 @@ main{
 #about span{
     font-size: 20px;
     color: #00F0FF;
+    cursor: pointer;
     
+}
+
+#about #comoProgramador{
+    color:#FF5C00 ;
 }
 
 
@@ -185,13 +190,15 @@ main{
 }
 
 
+
+
 #programador{
-    display: none;
+    
 }
 
 #pessoa{
     
-    
+    display: none;
 }
 
 
