@@ -9,7 +9,8 @@
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
+    
 }
 
 a{
@@ -230,9 +231,7 @@ width: 23vw;
 .allSkills{
     display: flex;
     margin-top: 1rem;
-    margin-left: -1.9rem;
     overflow-x: scroll;
-    overflow-y: hidden;
     width: 95vw;
     
    
@@ -252,8 +251,8 @@ width: 23vw;
 }
 
 .allSkills div img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .hobbies p{
@@ -335,6 +334,14 @@ footer ul{
         font-size: 3vw;
         text-align: center;
     }
+
+
+    .allSkills{
+       
+        margin-left: -1.9rem;
+    }
+        
+       
 
 }
 
