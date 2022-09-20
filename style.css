@@ -288,10 +288,11 @@ width: 23vw;
 #projects{
     padding: 1.5rem;
     margin-top: 50px;
+    
 }
 
 #projects section img{
-    width: 200px;
+    width: 250px;
     height: 150px;
 }
 
@@ -301,6 +302,12 @@ footer ul{
     font-size: 25px;
 }
 
+
+#projects section{
+    overflow-x: scroll;
+    display: flex;
+    gap: 4rem;
+}
 
 
 
