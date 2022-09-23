@@ -233,6 +233,8 @@ width: 23vw;
     margin-top: 1rem;
     overflow-x: scroll;
     width: 95vw;
+    padding: .8rem;
+    margin-left: -.6rem;
     
    
 }
