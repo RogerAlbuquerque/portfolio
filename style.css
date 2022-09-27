@@ -108,6 +108,7 @@ header li:hover{
     font-size: 20px;
     font-weight: bold;
     width: 180px;    
+    border-radius: 20px;
 }
 
 #curriculo:hover{
