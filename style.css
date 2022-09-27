@@ -99,7 +99,21 @@ header li:hover{
 
 
 
+#curriculo{
+    text-align: center;
+    padding: .4rem;
+    margin-top: 1rem;
 
+    background-color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    width: 180px;    
+}
+
+#curriculo:hover{
+    background-color: #c70707;
+    box-shadow: 0px 0px 20px rgb(244, 84, 84);
+}
 
 
 
