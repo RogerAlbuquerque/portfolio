@@ -59,7 +59,7 @@ header ul{
     font-size: 20px;
     cursor: pointer;
     animation: showUl 2s;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
