@@ -18,7 +18,7 @@ a{
 }
 
 a:hover{
-    color: #00F0FF;
+    color:  rgb(157, 116, 93);;
 }
 
 
@@ -66,7 +66,7 @@ header ul{
     animation-fill-mode: forwards;
 }
 header li:hover{
-    color: rgb(0, 255, 238);
+    color: rgb(142, 84, 53);
 }
 
 
@@ -381,34 +381,42 @@ footer{
 @media screen and (max-width: 860px) {
    
 #presentation{
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
     height: 100vh;
     gap: 1rem;
+
+    
 } 
 
 
 #presentation img{
     width: 40vw;
-    }
     
-    #presentation h1{
-        font-size: 8vw;
-        display: flex;
-    }
-    #presentation h3{
-        margin: 0rem 0rem;
-        font-size: 4vw;
-        text-align: center;
-    }
+    animation: showPresentationImageMobile 3s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+    
+#presentation h1{
+    font-size: 8vw;
+    display: flex;
+}
+#presentation h3{
+    margin: 0rem 0rem;
+    font-size: 4vw;
+    text-align: center;
+}
 
 
-    .allSkills{
-       
-        margin-left: -1.9rem;
-    }
+.allSkills{
+    
+    margin-left: -1.9rem;
+}
         
        
 
