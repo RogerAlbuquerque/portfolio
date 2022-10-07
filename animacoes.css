@@ -1,0 +1,52 @@
+@keyframes headerRight {
+    0%{
+     width: 0%; 
+     background: linear-gradient(180deg, #ff5100 0%, rgba(255, 0, 0, 0) 20%);
+        
+    }
+ 
+     50%{
+        width: 100%;          
+        background: linear-gradient(180deg, #ff5100 0%, rgba(255, 0, 0, 0) 20%);
+         
+        
+         
+     }
+ 
+    75%{   
+        height: 26px;      
+    }
+
+    90%{    
+        
+
+    }
+ 
+    100%{
+  
+     background: linear-gradient(180deg, #ff5100 0%, rgba(255, 0, 0, 0) 100%);
+     height: 100px;
+     
+    }
+    
+   }
+
+   @keyframes showUl {
+    0%{ 
+        opacity: 0; 
+        
+    }
+
+    50%{
+        
+        opacity: 0.5; 
+    }
+
+    100%{
+        opacity: 1;
+        padding-top: 27px;
+        
+    }
+
+   }
+
