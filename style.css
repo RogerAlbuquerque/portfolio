@@ -51,13 +51,15 @@ header{
 
 
 header ul{
-    display: flex; 
+    display: flex;
     opacity: 0;  
-    gap: 2vw;
+    gap: 4vw;
     color: white;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+
+
     animation: showUl 2s;
     animation-delay: 2.5s;
     animation-timing-function: ease-in-out;
@@ -376,7 +378,7 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
 
-    /* height: 100vh; */
+    height: 100vh;
     gap: 1rem;
 } 
 
