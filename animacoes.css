@@ -50,3 +50,20 @@
 
    }
 
+   @keyframes showPresentation{
+    from{ 
+        opacity: 0; 
+        margin-right: -227px;
+        margin-left: -227px;
+        
+    }
+
+   
+
+    to{
+        opacity: 1;
+        
+        
+    }
+   }
+
