@@ -335,12 +335,37 @@ width: 23vw;
 #projects{
     padding: 1.5rem;
     margin-top: 50px;
-    
 }
 
+
+
+#projects section{
+    overflow-x: auto;
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    
+    
+  
+}
+
+#projects section a{
+    
+    width: 400px;
+    border-radius: 2%;
+    background-color: #005555;
+    padding: .8rem;
+
+    
+    
+   
+
+}
 #projects section img{
     width: 250px;
     height: 150px;
+
+
 }
 
 footer ul{
@@ -350,11 +375,7 @@ footer ul{
 }
 
 
-#projects section{
-    overflow-x: auto;
-    display: flex;
-    gap: 4rem;
-}
+
 
 
 
