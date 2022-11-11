@@ -263,10 +263,6 @@ width: 23vw;
 .allSkills div{
    
     background-color: rgb(255, 255, 255);
-    border-top: 6px solid orange;
-    border-left: 6px solid orange;
-    border-bottom: 6px solid red;
-    border-right: 6px solid red;
     
     
    
@@ -275,8 +271,14 @@ width: 23vw;
     padding: 1.2rem;
     margin: 0rem .8rem;
     border-radius: 120px;
+   
     animation: mymove 2s infinite;
     animation-timing-function: linear;
+    border-top: 6px solid orange;
+    border-left: 6px solid orange;
+    border-bottom: 6px solid red;
+    border-right: 6px solid red;
+    
 }
 
 
@@ -344,6 +346,8 @@ width: 23vw;
     display: flex;
     gap: 2rem;
     padding-bottom: 1rem;
+
+    
     
     
   
@@ -356,14 +360,15 @@ width: 23vw;
     background-color: #005555;
     padding: .8rem;
 
-    
-    
-   
-
 }
+
+
+
 #projects section img{
     width: 250px;
     height: 150px;
+
+    
 
 
 }
