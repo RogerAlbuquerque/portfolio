@@ -102,7 +102,7 @@ main{
 #presentation{
     opacity: 0;
     /* padding: 0rem 4.6vw 6rem 4.6vw; */
-    padding:0 4.6rem ;
+    padding:0 4rem ;
     padding-bottom:22rem;
     /* margin-top:-10rem; */
     display: flex;
