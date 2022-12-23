@@ -95,7 +95,7 @@ main{
 
 #presentation{
     opacity: 0;
-    padding:12rem 4rem ;
+    padding:12rem 6rem ;
     padding-bottom:22rem;
 
     /* background:url(./img/fundo.gif); */
@@ -372,6 +372,8 @@ footer{
 #presentation{
    
     display: flex;
+    opacity:0;
+    padding:12rem 2rem ;
     flex-direction: column;
     justify-content: flex-start;
 
