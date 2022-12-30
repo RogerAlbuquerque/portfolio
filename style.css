@@ -98,10 +98,7 @@ main{
     padding:12rem 6rem ;
     padding-bottom:22rem;
 
-    /* background:url(./img/fundo.gif); */
-    /* background-size:cover; */
-    background-position: left;
-   
+
     display: flex;
     justify-content: space-between;
     align-items: center;
