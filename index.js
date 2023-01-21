@@ -22,6 +22,5 @@ function showPessoa(){
   document.getElementById("comoProgramador").style.color = "#00F0FF"
   document.getElementById("comoPessoa").style.color = "#FF5C00"
 
-  if( 1  2 )
 
 }
