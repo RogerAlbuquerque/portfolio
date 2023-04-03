@@ -27,6 +27,26 @@ body{
     font-family: 'Roboto';
 }
 
+#containerPt{
+    display: none
+}
+
+#ptbr{
+   color: rgb(225,225,225,0.4);
+}
+#ptbr:hover{
+    text-decoration: underline;
+}
+#enus{
+    color:#fff;
+    text-decoration: underline;
+}
+#enus:hover{
+    text-decoration: underline;
+}
+
+
+
 h1{
     font-size: 64px;
 }
@@ -148,6 +168,10 @@ width: 23vw;
 #about #comoProgramador{
     color:#FF5C00 ;
 }
+#about #asProgrammer{
+    color:#FF5C00 ;
+}
+
 
 
 #about div:first-child{
@@ -164,7 +188,9 @@ width: 23vw;
 #pessoa{    
     display: none;
 }
-
+#person{    
+    display: none;
+}
 
 
 
@@ -263,11 +289,6 @@ width: 23vw;
 
 /* #### HOBBIES COMO PESSOA FIM #### */
 /* #### ANIMAÇÕES DAS INFO ####   */
-
-@keyframes mymove {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-  }
 
   /* #### ANIMAÇÕES DAS INFO FIM####   */
 
