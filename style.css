@@ -5,6 +5,12 @@
     width: 100%;
     height: 100%;
     z-index:-1;
+    opacity:0;
+    animation: showUl 2s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    
   }
   
 
