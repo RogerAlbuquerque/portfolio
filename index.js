@@ -3,37 +3,37 @@
 function showProgramador(){
 
   let programador = document.getElementById("programador")
-let pessoa = document.getElementById("pessoa")
-let programmer = document.getElementById("programmer")
-let person = document.getElementById("person")
+  let pessoa      = document.getElementById("pessoa")
+  let programmer  = document.getElementById("programmer")
+  let person      = document.getElementById("person")
 
-  programador.style.display = "block"
-  pessoa.style.display = "none"
-  programmer.style.display = "block"
-  person.style.display = "none"
+  programador.style.display = "flex"  
+  programmer.style.display  = "flex"  
+  pessoa.style.display      = "none"
+  person.style.display      = "none"
 
   document.getElementById("comoProgramador").style.color = "#FF5C00"
-  document.getElementById("comoPessoa").style.color = "#00F0FF"
-  document.getElementById("asProgrammer").style.color = "#FF5C00"
-  document.getElementById("asPerson").style.color = "#00F0FF"
+  document.getElementById("comoPessoa").style.color      = "#00F0FF"
+  document.getElementById("asProgrammer").style.color    = "#FF5C00"
+  document.getElementById("asPerson").style.color        = "#00F0FF"
 
 }
 
 function showPessoa(){
-  let programador = document.getElementById("programador")
-let pessoa = document.getElementById("pessoa")
-let programmer = document.getElementById("programmer")
-let person = document.getElementById("person")
+  let programador = document.getElementById("programador")  
+  let programmer  = document.getElementById("programmer")
+  let pessoa      = document.getElementById("pessoa")
+  let person      = document.getElementById("person")
 
-  programador.style.display = "none"
-  pessoa.style.display = "block"
-  programmer.style.display = "none"
-  person.style.display = "block"
+  programador.style.display = "none"  
+  programmer.style.display  = "none"
+  pessoa.style.display      = "flex"
+  person.style.display      = "flex"
 
-  document.getElementById("comoProgramador").style.color = "#00F0FF"
-  document.getElementById("comoPessoa").style.color = "#FF5C00"
-  document.getElementById("asProgrammer").style.color = "#00F0FF"
-  document.getElementById("asPerson").style.color = "#FF5C00"
+  document.getElementById("comoProgramador").style.color = "#00F0FF"  
+  document.getElementById("asProgrammer").style.color    = "#00F0FF"
+  document.getElementById("comoPessoa").style.color      = "#FF5C00"
+  document.getElementById("asPerson").style.color        = "#FF5C00"
 
 
 }

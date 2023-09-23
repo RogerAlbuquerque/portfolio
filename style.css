@@ -170,13 +170,12 @@ width: 23vw;
 
 #about{
     background: radial-gradient(50% 50% at 50% 50%, #005555 0%, rgba(0, 85, 85, 0.49) 100%);
-    /* background-color: #00F0FF; */
+
     padding: 1.5rem;
     margin-bottom: 50px;
 
     height: 100%;
     padding-bottom: 4rem;
-    
 }
 
 #about span{
@@ -198,7 +197,15 @@ width: 23vw;
     padding-bottom: 1rem;
 }
 
+#programador, #programmer{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
 
+.information{
+    width: 50vw;
+}
 .information p{
     padding: .8rem 0rem;
     font-size:18px;
@@ -207,9 +214,11 @@ width: 23vw;
 
 #pessoa{    
     display: none;
+    gap: 200px;
 }
 #person{    
     display: none;
+    gap: 200px;
 }
 
 
@@ -230,16 +239,18 @@ width: 23vw;
 
 /* #### SKILLS COMO PROGRAMADOR #### */
 .skills{
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
+    width: 60vw;
 }
 .allSkills{
     display: flex;
-    margin-top: 1rem;
+    flex-wrap: wrap;
+    /* margin-top: 1rem;
     overflow-x: scroll;
-    overflow-y:hidden;
-    width: 95vw;
-    padding: .8rem;
-    margin-left: -.6rem;
+    overflow-y:hidden; */
+    /* width: 95vw; */
+    /* padding: .8rem;
+    margin-left: -.6rem; */
     
    
 }
