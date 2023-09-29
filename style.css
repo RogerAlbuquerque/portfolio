@@ -438,11 +438,7 @@ footer{
 }
 
 
-.allSkills{
-    width: 100vw;
-    margin-left: -1.9rem;
-    justify-content: center;
-}
+
 
 
 .skills h3{
@@ -453,6 +449,12 @@ footer{
     margin-top: 4rem;
     margin-bottom: 2rem;
 }
+
+.skills{
+    align-items: center;
+    width: 90vw;
+}
+
 
 .information{
     width: 90vw;
@@ -465,3 +467,32 @@ footer{
 }
 
 
+
+@media screen and (min-width: 767px) and (max-width:1023px) {
+.allSkills{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+#programmer, #person, #programador, #pessoa{
+    gap: 80px;
+}
+.information{
+    width: 90vw;
+
+}
+
+.skills h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+}
