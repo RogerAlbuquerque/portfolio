@@ -438,10 +438,18 @@ footer{
 
 
 .allSkills{
-    
+    width: 80vw;
+    border: 1px solid red;
     margin-left: -1.9rem;
 }
-        
+
+.information{
+    width: 90vw;
+    border: 1px solid red;
+}
+#programmer, #person{
+    flex-direction: column;
+}
 
 
 }
