@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
-  canvas {
+canvas {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -11,12 +11,7 @@
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     
-  }
-  
-
-  #about{
-    z-index:1;
-  }
+}
 
 *{
     padding: 0px;
@@ -50,7 +45,7 @@ body{
 }
 
 #ptbr{
-   color: rgb(225,225,225,0.4);
+    color: rgb(225,225,225,0.4);
 }
 #ptbr:hover{
     text-decoration: underline;
@@ -81,7 +76,6 @@ header{
     animation: headerRight 3s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-  
 }
 
 
@@ -148,7 +142,6 @@ main{
     animation-delay: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-  
 }
 #presentation img{
 width: 23vw;
@@ -176,6 +169,7 @@ width: 23vw;
 
     height: 100%;
     padding-bottom: 4rem;
+    z-index:1;
 }
 
 #about span{
@@ -251,8 +245,6 @@ width: 23vw;
     /* width: 95vw; */
     /* padding: .8rem;
     margin-left: -.6rem; */
-    
-   
 }
 
 
@@ -262,17 +254,15 @@ width: 23vw;
 
 
 .allSkills div{
-   
     background-color: rgb(255, 255, 255);
-    
-    
-   
+
+
     width: 140px;
     height: 140px;
     padding: 1.2rem;
     margin: 0rem .8rem;
     border-radius: 120px;
-   
+
     animation: mymove 2s infinite;
     animation-timing-function: linear;
     border-top: 6px solid orange;
@@ -346,7 +336,6 @@ width: 23vw;
     
     
     
-  
 }
 
 #projects section a{
@@ -367,12 +356,10 @@ width: 23vw;
 .info-projects{
     text-align:center;
     background-color:#002B2C;
-   
 }
 
 .info-projects p:nth-child(2){
     margin-top:.4rem;
-   
     border-radius:10px;
 }
 
@@ -386,23 +373,22 @@ width: 23vw;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 footer ul{
     display: flex;
     gap: 2rem;
     font-size: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer{
     margin-top: 4rem;
@@ -418,16 +404,13 @@ footer{
 /* #### RESPONSIVIDADE #### */
 
 @media screen and (max-width: 860px) {
-   
 #presentation{
-   
     display: flex;
     opacity:0;
     padding:12rem 2rem ;
     flex-direction: column;
     justify-content: flex-start;
 
- 
     gap: 1rem;
 
     
@@ -459,7 +442,7 @@ footer{
     margin-left: -1.9rem;
 }
         
-       
+
 
 }
 
