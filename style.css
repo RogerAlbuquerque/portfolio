@@ -391,7 +391,7 @@ footer{
 
 /* #### RESPONSIVIDADE #### */
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 789px) {
 #presentation{
     display: flex;
     opacity:0;
