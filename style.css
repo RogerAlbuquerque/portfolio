@@ -41,18 +41,11 @@ body{
     font-family: 'Roboto';
 }
 
-#containerPt{
+/* #containerPt{
     display: none
-}
+} */
 
-#ptbr{
-    color: rgb(225,225,225,0.4);
-}
 #ptbr:hover{
-    text-decoration: underline;
-}
-#enus{
-    color:#fff;
     text-decoration: underline;
 }
 #enus:hover{
@@ -120,14 +113,7 @@ header li:hover{
 }
 
 
-
-
-main{
-    /* text-align: left; */
-}
-
 #presentation{
-    /* background-color:#292828; */
     opacity: 0;
     padding:12rem 6rem ;
     padding-bottom:22rem;
@@ -234,18 +220,19 @@ width: 23vw;
 
 /* #### SKILLS COMO PROGRAMADOR #### */
 .skills{
-    /* padding-top: 6rem; */
     width: 60vw;
 }
+
+.skillTitle{
+text-align: center;
+margin-top: 4rem;
+margin-bottom: 2rem;
+
+}
+
 .allSkills{
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 1rem;
-    overflow-x: scroll;
-    overflow-y:hidden; */
-    /* width: 95vw; */
-    /* padding: .8rem;
-    margin-left: -.6rem; */
 }
 
 
@@ -468,12 +455,11 @@ footer{
 
 
 
-@media screen and (min-width: 767px) and (max-width:1023px) {
+@media screen and (min-width: 790px) and (max-width:1023px) {
 .allSkills{
-    width: 40vw;
+    width: 42vw;
     display: flex;
-    justify-content: center;
-
+    justify-content: center
 }
 
 .skills{

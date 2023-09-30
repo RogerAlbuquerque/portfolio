@@ -1,5 +1,3 @@
-
-
 function showProgramador(){
 
   let programador = document.getElementById("programador")
@@ -38,38 +36,38 @@ function showPessoa(){
 
 }
 
-function changeLangToEng(){
-  let ptContainer = document.getElementById("containerPt")
-  let engContainer = document.getElementById("containerEn")
+// function changeLangToEng(){
+//   let ptContainer = document.getElementById("containerPt")
+//   let engContainer = document.getElementById("containerEn")
   
 
-  engContainer.style.display = "block"
-  ptContainer.style.display = "none"
+//   engContainer.style.display = "block"
+//   ptContainer.style.display = "none"
 
-  let ptbutton =  document.getElementById("ptbr")
-  let enbutton = document.getElementById("enus")
+//   let ptbutton =  document.getElementById("ptbr")
+//   let enbutton = document.getElementById("enus")
 
-  ptbutton.style.color = "rgb(225,225,225,0.4)"
-  ptbutton.style.textDecoration = "none"
-  enbutton.style.color = "#fff"
-  enbutton.style.textDecoration = "underline"
+//   ptbutton.style.color = "rgb(225,225,225,0.4)"
+//   ptbutton.style.textDecoration = "none"
+//   enbutton.style.color = "#fff"
+//   enbutton.style.textDecoration = "underline"
 
-}
+// }
 
-function changeLangToPT(){
-  let ptContainer = document.getElementById("containerPt")
-  let engContainer = document.getElementById("containerEn")
+// function changeLangToPT(){
+//   let ptContainer = document.getElementById("containerPt")
+//   let engContainer = document.getElementById("containerEn")
   
 
-  ptContainer.style.display = "block"
-  engContainer.style.display = "none"
+//   ptContainer.style.display = "block"
+//   engContainer.style.display = "none"
 
-  let ptbutton =  document.getElementById("ptbr")
-  let enbutton = document.getElementById("enus")
+//   let ptbutton =  document.getElementById("ptbr")
+//   let enbutton = document.getElementById("enus")
 
-  enbutton.style.color = "rgb(225,225,225,0.4)"
-  ptbutton.style.color = "#fff"
-  ptbutton.style.textDecoration = "underline"
-  enbutton.style.textDecoration = "none"
+//   enbutton.style.color = "rgb(225,225,225,0.4)"
+//   ptbutton.style.color = "#fff"
+//   ptbutton.style.textDecoration = "underline"
+//   enbutton.style.textDecoration = "none"
 
-}
+// } 
