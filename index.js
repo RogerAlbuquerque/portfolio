@@ -1,38 +1,55 @@
-function showProgramador(){
+function showProgramador(lang){
 
-  let programador = document.getElementById("programador")
-  let pessoa      = document.getElementById("pessoa")
-  let programmer  = document.getElementById("programmer")
-  let person      = document.getElementById("person")
+  if(lang == 'en')
+  {
+    let programmer  = document.getElementById("programmer")
+    let person      = document.getElementById("person")
+    
+    programmer.style.display  = "flex"
+    person.style.display      = "none"
 
-  programador.style.display = "flex"  
-  programmer.style.display  = "flex"  
-  pessoa.style.display      = "none"
-  person.style.display      = "none"
+    document.getElementById("asProgrammer").style.color    = "#FF5C00"
+    document.getElementById("asPerson").style.color        = "#00F0FF"
+  }
+  else{
+    let programador = document.getElementById("programador")
+    let pessoa      = document.getElementById("pessoa")
 
-  document.getElementById("comoProgramador").style.color = "#FF5C00"
-  document.getElementById("comoPessoa").style.color      = "#00F0FF"
-  document.getElementById("asProgrammer").style.color    = "#FF5C00"
-  document.getElementById("asPerson").style.color        = "#00F0FF"
+    programador.style.display = "flex"   
+    pessoa.style.display      = "none"
+
+    document.getElementById("comoProgramador").style.color = "#FF5C00"
+    document.getElementById("comoPessoa").style.color      = "#00F0FF"
+  }
+  
+
+
+  
 
 }
 
-function showPessoa(){
-  let programador = document.getElementById("programador")  
-  let programmer  = document.getElementById("programmer")
-  let pessoa      = document.getElementById("pessoa")
-  let person      = document.getElementById("person")
+function showPessoa(lang){
+  if(lang == 'en')
+  {
+    let programmer  = document.getElementById("programmer")
+    let person      = document.getElementById("person")
 
-  programador.style.display = "none"  
-  programmer.style.display  = "none"
-  pessoa.style.display      = "flex"
-  person.style.display      = "flex"
+    programmer.style.display  = "none"
+    person.style.display      = "flex"
 
-  document.getElementById("comoProgramador").style.color = "#00F0FF"  
-  document.getElementById("asProgrammer").style.color    = "#00F0FF"
-  document.getElementById("comoPessoa").style.color      = "#FF5C00"
-  document.getElementById("asPerson").style.color        = "#FF5C00"
+    document.getElementById("asProgrammer").style.color    = "#00F0FF"
+    document.getElementById("asPerson").style.color        = "#FF5C00"
+  }
+  else{
+    let programador = document.getElementById("programador")  
+    let pessoa      = document.getElementById("pessoa")
 
+    programador.style.display = "none" 
+    pessoa.style.display      = "flex"
+
+    document.getElementById("comoProgramador").style.color = "#00F0FF"  
+    document.getElementById("comoPessoa").style.color      = "#FF5C00"
+  }
 
 }
 
